@@ -1,0 +1,16 @@
+{
+    "name": "Rinval.MobileAdsAndIapKit.Demo",
+    "rootNamespace": "Rinval.MobileAdsAndIapKit",
+    "references": [
+        "Rinval.MobileAdsAndIapKit"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

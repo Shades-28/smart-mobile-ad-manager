@@ -1,0 +1,67 @@
+Mobile Ads & IAP Kit - Third-Party Notices
+==========================================
+
+This package contains no bundled third-party source, binaries, fonts, or assets.
+
+It integrates with the following SDKs, which the customer installs separately
+from the respective vendor. Use of each SDK is governed by that vendor's terms.
+
+
+AD MEDIATION SDKs
+-
+- AppLovin MAX
+  Site:  https://www.applovin.com/max/
+  Terms: https://www.applovin.com/terms/
+  Privacy: https://www.applovin.com/privacy/
+
+- Google AdMob (Mobile Ads SDK)
+  Site:  https://developers.google.com/admob
+  Terms: https://developers.google.com/admob/terms
+  Privacy: https://policies.google.com/privacy
+
+- Unity LevelPlay (ironSource)
+  Site:  https://unity.com/products/level-play
+  Terms: https://unity.com/legal/level-play
+  Privacy: https://unity.com/legal/privacy-policy
+
+
+IN-APP PURCHASES
+-
+- Unity IAP V5 (UnityEngine.Purchasing)
+  Package: com.unity.purchasing
+  Terms:   https://unity.com/legal/terms-of-service
+  Privacy: https://unity.com/legal/privacy-policy
+
+
+COMPLIANCE / CONSENT
+-
+- Google User Messaging Platform (UMP) SDK
+  Site:  https://developers.google.com/admob/unity/privacy
+  Terms: https://developers.google.com/admob/terms
+  Privacy: https://policies.google.com/privacy
+
+
+PUSH NOTIFICATIONS (optional)
+-
+- Firebase Cloud Messaging (FCM)
+  Site:  https://firebase.google.com/products/cloud-messaging
+  Terms: https://firebase.google.com/terms
+  Privacy: https://policies.google.com/privacy
+
+
+CONFIG (optional)
+-
+- Firebase Remote Config
+  Site:  https://firebase.google.com/products/remote-config
+  Terms: https://firebase.google.com/terms
+  Privacy: https://policies.google.com/privacy
+
+
+-
+Integration code paths in this package are gated by the preprocessor symbols
+AD_USE_APPLOVIN, AD_USE_ADMOB, AD_USE_LEVELPLAY, UNITY_PURCHASING, RNIVAL_UMP,
+RNIVAL_FCM, and RNIVAL_FIREBASE_REMOTECONFIG. Each compiles only when the
+corresponding SDK is present in the project.
+
+This package is provided "as is" by Rnival Games under the Unity Asset Store
+End User License Agreement (https://unity.com/legal/as-terms).
